@@ -1,0 +1,27 @@
+{
+  "name": "wineswap.js",
+  "version": "1.0.0",
+  "description": "The JS SDK for wineswap",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --module commonjs"
+  },
+  "keywords": [
+    "terra",
+    "wineswap",
+    "dex",
+    "concentrated liquidity"
+  ],
+  "author": "WineSeller",
+  "license": "MIT",
+  "dependencies": {
+    "@terra-money/terra.js": "^3.0.1",
+    "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.3"
+  }
+}
